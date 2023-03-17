@@ -1,0 +1,61 @@
+
+.List{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    align-items: center;
+    padding-top: 190px;
+  }
+    
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+    
+  th,td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+  }
+  th
+  {
+    background-color: blanchedalmond;
+  
+  }
+  td
+  {
+    background-color:beige;
+  }
+  
+  form 
+  {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  form *{
+    font-size: 20px;
+    margin-top: 10px;
+    color: blueviolet;
+  }
+  
+  .btn
+  {
+     cursor: pointer;
+      font: inherit;
+      padding: 10px;
+      margin: 10px;
+      width: 113px;
+      height:43px; 
+  
+  }
+    
+  
+  
